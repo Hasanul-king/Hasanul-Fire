@@ -106,7 +106,7 @@ def __Hasan__():
         for user in dx:
             ids,names = user.split('|')
             passlist = dplist
-            Hasanul.submit(__Fire__,ids,names,passlist)
+            hasanul.submit(__Fire__,ids,names,passlist)
     print('');linex()
     E = f"{green}[{rad}+{green}] THE PROCESS HAS COMPLETE\n"
     F = f"{green}[{rad}+{green}] TOTAL ID : {white}{len(oks)}"
